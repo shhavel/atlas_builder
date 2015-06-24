@@ -1,0 +1,26 @@
+UNINSTALL
+=========
+rm -rf ~/.rvm   OR   rvm implode
+
+INSTALL
+=========
+\curl -L https://get.rvm.io | bash
+rvm reload
+rvm get stable
+
+
+rvm install ruby-2.0.0-p353
+
+
+ruby-1.9.3-p327 [ x86_64 ]
+ruby-1.9.3-p448 [ x86_64 ]
+ruby-2.0.0-p247 [ x86_64 ]
+
+
+source /Users/alex/.rvm/scripts/rvm
+rvm reinstall 2.1.1 --with-libyaml-dir=/Users/alex/.rvm/src/yaml-0.1.5
+
+http://stackoverflow.com/questions/15738883/please-install-libyaml-and-reinstall-your-ruby
+
+
+
